@@ -65,3 +65,28 @@ p {
 
 /* Gallery Styles */
 #gallery 
+
+/* Contact Styles */
+form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    max-width: 400px; /* Optional: limit the width of the form */
+    margin: 0 auto; /* Center the form on the page */
+}
+
+label {
+    margin-top: 10px; /* Space above the label */
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Optional: Style the placeholder text */
+input::placeholder,
+textarea::placeholder {
+    color: #aaa; /* Lighter color for placeholder */
+}
