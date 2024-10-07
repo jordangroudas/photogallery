@@ -116,6 +116,11 @@ img {
 }
 
 /* Contact Styles */
+#contact {
+    background-color: #000; /* Black background for the contact section */
+    padding: 20px; /* Add padding */
+}
+
 form {
     display: flex;
     flex-direction: column; /* Stack elements vertically */
