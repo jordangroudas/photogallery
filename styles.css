@@ -137,6 +137,7 @@ input, textarea {
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    color: #000; /* Text color inside input */
 }
 
 /* Optional: Style the placeholder text */
